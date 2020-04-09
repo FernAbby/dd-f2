@@ -1,0 +1,26 @@
+{
+  "name": "dd-f2",
+  "version": "1.0.0",
+  "description": "dingding eapp f2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernAbby/dd-f2.git"
+  },
+  "keywords": [
+    "dingding",
+    "eapp"
+  ],
+  "author": "wenzhen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernAbby/dd-f2/issues"
+  },
+  "homepage": "https://github.com/FernAbby/dd-f2#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1"
+  }
+}

@@ -1,0 +1,7 @@
+<canvas
+    id="{{id}}"
+    class="f2-canvas"
+    catchTouchStart="touchStart"
+    catchTouchMove="touchMove"
+    catchTouchEnd="touchEnd"
+></canvas>
