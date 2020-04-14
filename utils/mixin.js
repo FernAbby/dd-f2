@@ -27,10 +27,11 @@ export default {
             .select(`#${id}`)
             .boundingClientRect()
             .exec((res) => {
+              console.log(res);
               if (res && res[0]) {
-                const { pixelRatio } = systemInfo;
                 let canvasWidth = res[0].width;
                 let canvasHeight = res[0].height;
+                const pixelRatio = dd.getSystemInfoSync().pixelRatio;
 
                 this.setData({
                   canvas: {

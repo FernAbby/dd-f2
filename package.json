@@ -1,9 +1,11 @@
 {
   "name": "dd-f2",
   "version": "1.0.0",
-  "description": "dingding eapp f2",
+  "description": "dingding f2",
   "main": "app.js",
   "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/FernAbby/dd-f2#readme",
   "devDependencies": {
     "webpack": "^4.42.1"
+  },
+  "dependencies": {
+    "@antv/f2": "^3.6.3"
   }
 }
