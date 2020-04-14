@@ -1,12 +1,12 @@
-
-
-export default {
+var webpack = require('webpack');
+module.exports = {
+  mode: 'production',
   devtool: 'source-map',
-  input: 'src/index.js',
+  entry: './src/index.js',
   output: {
-    filename: 'build/index.js',
+    filename: 'index.js',
   },
   resolve: {
     extensions: ['.js','.json','.web.js','.mjs'],
   },
-}
+};

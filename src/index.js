@@ -1,5 +1,5 @@
 import F2 from '@antv/f2';
-import mixin from '/utils/mixin';
+import mixin from '../utils/mixin';
 
 function wrapEvent(e) {
   if (!e) return;
