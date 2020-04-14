@@ -10,7 +10,7 @@ F2 的钉钉小程序版本，支持原生 [F2](https://f2.antv.vision/) 的所�
 ## 没有package.json时执行下面这段
 ## echo "{}" > package.json
 
-npm install @antv/dd-f2 --save
+npm install dd-f2 --save
 ```
 
 ![](https://gw.alipayobjects.com/zos/rmsportal/kORAowbzpNioXseBQoxC.png#align=left&display=inline&height=746&originHeight=746&originWidth=392&status=done&style=none&width=392)
